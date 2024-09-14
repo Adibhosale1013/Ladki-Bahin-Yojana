@@ -1,0 +1,242 @@
+/* Media Query for screens with a max-width of 450px */
+@media (max-width: 450px) {
+  /* General Styles */
+  body {
+      padding: 10px;
+      font-size: 14px;
+  }
+
+  section {
+      padding: 20px 10px;
+  }
+
+  /* Intro Section */
+  .intro .logo-header h4 {
+      font-size: 18px;
+      padding: 10px;
+  }
+
+  /* Logobar */
+  .logobar .logos {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .logobar .logos h1 {
+      font-size: 22px;
+      margin-top: 10px;
+  }
+
+  .logobar .logos img,
+  .logobar .logos .mahaLogo {
+      width: 80px;
+      height: auto;
+  }
+
+  .logobar .editor {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+  }
+
+  .logobar .editor i {
+      font-size: 24px;
+  }
+
+  /* Helpline Section */
+  .helpline {
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+  }
+
+  .helpline h3 {
+      font-size: 14px;
+      margin-bottom: 5px;
+  }
+
+  .helpline a {
+      font-size: 14px;
+  }
+
+  /* Navbar */
+  .navbar {
+      padding: 10px;
+      position: relative;
+  }
+
+  .navbar .menu-btn {
+      display: block;
+      background: none;
+      border: none;
+      font-size: 28px;
+      color: var(--whitefont);
+      cursor: pointer;
+  }
+
+  .navbar .nav {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      background: var(--orangebackground);
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      padding: 10px 0;
+      z-index: 1000;
+  }
+
+  .navbar .nav a {
+      padding: 10px 20px;
+      width: 100%;
+      color: var(--blackbackground);
+      text-decoration: none;
+  }
+
+  .navbar .nav a:hover {
+      background: var(--blackbackground);
+      color: var(--orangefont);
+  }
+
+  /* Hero Section */
+  .hero {
+      height: 200px;
+  }
+
+  .hero-slider img {
+      object-fit: contain;
+  }
+
+  /* Container Section */
+  .container {
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  .stat {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 15px;
+  }
+
+  .stat p {
+      font-size: 14px;
+  }
+
+  /* Basket Section */
+  .basket {
+      padding: 10px;
+  }
+
+  .basket .data h1 {
+      font-size: 20px;
+      text-align: center;
+  }
+
+  .basket .data .para p {
+      font-size: 14px;
+      text-align: justify;
+  }
+
+  .basket .data a {
+      font-size: 14px;
+  }
+
+  .basket .video-box {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  /* Queries Section */
+  .queries h1 {
+      font-size: 20px;
+  }
+
+  .criteria {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .criteria .eligibility {
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: center;
+      padding: 15px;
+  }
+
+  .solution {
+      width: 100%;
+      padding: 15px;
+  }
+
+  .solution ul li {
+      font-size: 14px;
+  }
+
+  /* Documents Section */
+  .documents {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .documents h1 {
+      font-size: 20px;
+      text-align: center;
+  }
+
+  .documents .docInfo {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 10px;
+  }
+
+  .documents .docInfo h3 {
+      font-size: 16px;
+  }
+
+  .documents .docInfo p {
+      font-size: 14px;
+      text-align: justify;
+  }
+
+  /* Footer Section */
+  .footer .mainAdd h3 {
+      font-size: 16px;
+      text-align: center;
+  }
+
+  .footer .mainAdd p {
+      font-size: 14px;
+      text-align: center;
+  }
+
+  .footer .copyrights {
+      font-size: 12px;
+  }
+}
+
+/* Show navigation menu when menu button is clicked */
+.navbar .nav.show {
+  display: flex;
+}
+
+
+
+.recaptcha-container {
+    transform: scale(0.85); /* Adjust scale based on your requirements */
+    -webkit-transform: scale(0.85);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    .recaptcha-container {
+        transform: scale(0.85); /* Adjust for even smaller screens */
+        -webkit-transform: scale(0.85);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
+}

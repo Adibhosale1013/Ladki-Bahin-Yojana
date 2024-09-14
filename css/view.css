@@ -1,0 +1,67 @@
+/* Styles for the application status table */
+.application-status {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: var(--whitebackground);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.application-status h2 {
+    margin-bottom: 20px;
+    color: var(--blackfont);
+    text-align: center;
+}
+
+.application-status table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.application-status th,
+.application-status td {
+    padding: 12px;
+    border: var(--border);
+    text-align: left;
+    color: var(--blackfont);
+}
+
+.application-status th {
+    background-color: var(--navcolor);
+    color: var(--whitefont);
+    font-weight: bold;
+}
+
+.application-status tr{
+    background-color: var(--whitebackground);
+}
+
+
+
+.application-status td {
+    word-break: break-word;
+}
+
+.application-status td:last-child {
+    text-align: right;
+}
+
+.application-status .highlight {
+    color: var(--orangefont);
+}
+
+
+.edit-btn {
+    background-color: #e85d04;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.edit-btn:hover {
+    background-color: #d9534f;
+}
